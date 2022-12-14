@@ -9,6 +9,9 @@ Packages for running PLS analysis:
 - optax
 - cvxpy
 
+Packages required for state tomography:
+- Labber (need access to log browswer api, does not require a license)
+
 Packages required for running plots:
 - numpy
 - matplotlib
@@ -17,10 +20,5 @@ Packages required for running plots:
 - scipy
 
 
-For extracting the from the raw .hdf5 files:
-Labber (log browser api, don't need a license, just some nice functionality for data handling)
-
-or h5py (will need to manually go through hdf5 files, or use .npy files without the extra metadata)
-
-(Optional)
--Latex for some plotting (comment out lines for some labels)
+(Optional):
+- Latex for some plotting (comment out lines for some labels)
